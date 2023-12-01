@@ -18,6 +18,7 @@ div> p{
 .cta{
     display: flex;
     justify-content: center;
+    align-items: center;
     text-decoration: none;
     color: black;
     margin-top: 5px;
@@ -26,7 +27,6 @@ div> p{
     border: 2px solid black;
     border-radius: 20px;
     padding: 3px;
-    margin-right: 1%;
     margin-top: 2%;
     font-size: 15px;
     font-weight: 600;
@@ -51,11 +51,23 @@ div> p{
     transition: .4s;
 }
 .luas-content{
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
-    margin-top: 25%;
+    margin-top: 23%;
 }
 .image {
-    width: 35%;
-    margin-top: 45px;
+    width: 35vh;
+    margin-top: 30px;
+    margin-bottom: 10%;
+    
+}
+.input{
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    padding-bottom: 9%;
+}
+input::placeholder{
+    font-size: 1em;
+    font-weight: 700;
 }
