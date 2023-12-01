@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+.main-menu{
+    text-align: center;
+    padding-top: 10%;
+    font-size: 1.2rem;
+}
+div> p{
+    margin-top: 10px;
+}
+.cta{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    margin-top: 5px;
+}
+.luas {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 3px;
+    margin-right: 1%;
+    margin-top: 2%;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+}
+.keliling {
+    border:2px solid black;
+    border-radius: 20px;
+    padding: 3px;
+    margin-left: 1%;
+    margin-top: 2%;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+}
+.cta a:hover{
+    border: 2px solid black;
+    color: black;
+    background: #39A7FF ;
+    transition: .4s;
+}
+.luas-content{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 25%;
+}
+.image {
+    width: 35%;
+    margin-top: 45px;
+}
