@@ -50,7 +50,7 @@ div> p{
     background: #39A7FF ;
     transition: .4s;
 }
-.luas-content{
+.form-content{
     font-size: 1.3rem;
     text-align: center;
     margin-top: 10px;
@@ -65,6 +65,9 @@ div> p{
     justify-content: center;
     gap: 3%;
     padding-bottom: 5px;
+}
+#input{
+    flex-direction: column;
 }
 input[type=number]::-webkit-inner-spin-button {
     -webkit-appearance: none;
@@ -101,26 +104,28 @@ input::placeholder{
     background: white;
     border: solid 2px;
     border-radius: 15px;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-155%, 60%);
-    width: 500px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 500px;
     
 }
 .form2 {
     background: white;
     border: solid 2px;
     border-radius: 15px;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-115%, 60%);
-    width: 500px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 500px;
+   margin-top: 15%;
 }
 section{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 20%;
+    padding-bottom: 10%;
+    margin-top: 20%;
+    
 }
