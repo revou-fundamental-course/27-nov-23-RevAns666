@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calct Mini</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -19,15 +20,36 @@
     <a href="#" class="keliling">keliling Segitiga</a>
 </div>
 <section>
+    <div class="form1">
     <div class="luas-content">
         <h1>Hitung Luas Segitiga</h1>
         <img class="image" src="Rumus Luas Segitiga.png">
-       <div class="input">
+        <p class="rumus">L= ½ x a x t</p>
+       <div class="input" id="input">
         <input type="number" placeholder="Alas">
-        <input type="number" placeholder="Tinggi"></div>
-        
+        <input type="number" placeholder="Tinggi">
+    </div> 
+    <div class="btn">
+    <button id="hitung-alas">Hitung</button>  
+    <button id="hitung-tinggi">reset</button>
+        </div> 
     </div>
+</div>
+<div class="form2">
+    <div class="luas-content">
+        <h1>Hitung Keliling Segitiga</h1>
+        <img class="image" src="Rumus Luas Segitiga.png">
+        <p class="rumus">L= ½ x a x t</p>
+       <div class="input">
+        <input type="number" placeholder="Alas" id="alas">
+        <input type="number" placeholder="Tinggi" id="tinggi"></div>
+        <div class="btn">
+            <button id="hitung">Hitung</button>  
+            <button>reset</button>
+                </div> 
+    </div>
+</div>
 </section>
-    
+<script src="js/script.js"></script>
 </body>
 </html>
