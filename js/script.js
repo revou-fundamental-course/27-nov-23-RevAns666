@@ -8,8 +8,8 @@ hitung1.addEventListener('click', function(){
     let s1=sisi1.value
     let s2=sisi2.value
     let s3=sisi3.value
-    let h=s1*s2*s3
-    output1.innerHTML= `Hasil dari keliling= ${h}`
+    let h=parseInt(s1) + parseInt(s2) + parseInt(s3)
+    output1.innerHTML= `Hasil dari keliling= ${h}cm`
 })
 /* hitung luas segitiga */
 const alas = document.getElementById('alas')
