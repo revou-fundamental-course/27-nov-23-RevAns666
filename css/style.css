@@ -65,6 +65,7 @@ div> p{
     justify-content: center;
     gap: 3%;
     padding-bottom: 5px;
+    gap: 5px;
 }
 #input{
     flex-direction: column;
