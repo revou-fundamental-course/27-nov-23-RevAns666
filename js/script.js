@@ -22,3 +22,25 @@ hitung2.addEventListener('click', function(){
     let l=0.5*a*t
     output2.innerHTML= `Alas= ${a}cm Tinggi= ${t}cm Luas= ${l}cm2`
 })
+/* Reset Button */
+var btnClear2 = document.getElementById('reset2');
+var outputElement2 = document.getElementById('output2');
+var reset1 = document.getElementById('alas')
+var reset2 = document.getElementById('tinggi')
+btnClear2.addEventListener('click', function(){
+    outputElement2.innerHTML = '';
+    reset1.value = '';
+    reset2.value = '';       
+    });
+
+    var btnClear1 = document.getElementById('reset1');
+    var outputElement1 = document.getElementById('output1');
+    var clear1 = document.getElementById('s1')
+    var clear2 = document.getElementById('s2')
+    var clear3 = document.getElementById('s3')
+    btnClear1.addEventListener('click', function(){
+        outputElement1.innerHTML = '';
+        clear1.value = '';
+        clear2.value = '';    
+        clear3.value = '';     
+        });
